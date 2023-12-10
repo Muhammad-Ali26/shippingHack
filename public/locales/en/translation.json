@@ -1,0 +1,297 @@
+{
+  "leftbar": {
+    "title": {
+      "dashboard": "Dasboard",
+      "orderTracking": "Order Tracking",
+      "virtualBoxNumber": "Virtual Box Number",
+      "orderManagement": "Order Management (USA)",
+      "incoming": "Incoming",
+      "pendingMeasurements": "Pending Measurements",
+      "awaitingConsolidation": "Awaiting Consolidation",
+      "pendingPayment": "Pending Payments",
+      "readyToShip": "Ready To Ship",
+      "directDelivery": "Direct Delivery",
+      "byWarehouse": "By Warehouse Delivery",
+      "inTransit": "In Transit",
+      "outgoing": "Outgoing",
+      "orderManagementRico": "Order Management (Puerto Rico) Outgoing Package",
+      "received": "Received",
+      "assignDriver": "Assign Driver (Waiting to Picked by Driver)",
+      "onTheWay": "On the way ( Outgoing)",
+      "directDeliveryOrders": "Direct Delivery",
+      "selfPickup": "Self Pickup",
+      "completedOrders": "Completed",
+      "cancelledOrders": "Cancelled",
+      "driver": "Drivers"
+    }
+  },
+  "pages": {
+    "home": {
+      "dasboard": "My Dashboard",
+      "allOrder": "All Orders",
+      "incoming": "Incoming",
+      "received": "Received at warehouse (USA Incoming)",
+      "waitingConsolidation": "Waiting for consolidation",
+      "readyToShip": "Ready To Ship",
+      "inTransitIncoming": "In Transit (Incoming)",
+      "inTransitOutgoing": "In Transit (Outgoing)",
+      "deliverd": "Delivered at warehouse (Puerto Rico Received)",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "pendingPayment": "Pending Payments",
+      "selfPickup": "Self Pickup"
+    },
+
+    "orderTracking": {
+      "title": "Track Order",
+      "inputPlaceholder": "Enter Order Id To Track",
+      "button": "Track",
+      "trackOrderDetTitle": "Track Order Details",
+      "status": "Status",
+      "statusPh": "Change Status"
+    },
+
+    "trackVbn": {
+      "title": "Track Virtual Box Number",
+      "inputPlaceholder": "Enter Virtual Box Number",
+      "button": "Track",
+      "allBookings": "All Bookings",
+      "orderDetails": "Order Details"
+    },
+
+    "orderManagement": {
+      "titleOne": "All Orders - Incoming",
+      "titleTwo": "All Orders - Received/ pending label",
+      "titleThree": "All Orders - Awaiting Consolidation",
+      "titleFour": "All Orders - Pending Payment",
+      "tabOne": "Incoming",
+      "tabTwo": "Received/ pending label",
+      "tabThree": "Awaiting Consolidation",
+      "tabFour": "Pending Payment"
+    },
+
+    "orderManagementRico": {
+      "titleOne": "All Orders-Received",
+      "titleTwo": "All Orders- Awaiting to picked",
+      "titleThree": "All Orders-On The Way",
+      "assignBtn": "Assign",
+      "assignDriBtn": "Assign Driver",
+      "allDrivers": "All Active Drivers",
+      "handedOverBtn": "Handed over",
+      "detailTitleOne": "Received - Details",
+      "detailTitleTwo": "Awaiting to picked - Details",
+      "detailTitleThree": "On the way - Details"
+    },
+
+    "readyToShip": {
+      "titleOne": "All Orders - Direct Delivery",
+      "titleTwo": "All Orders - By Warehouse Delivery",
+      "tabOne": "Direct Delivery Orders",
+      "tabTwo": "By Warehouse Delivery Orders",
+      "directDelBtn": "Direct Delivery",
+      "byWarehouseBtn": "By Warehouse Delivery",
+      "detailsTitle": "Ready To Ship Details",
+      "addTrackNo": "Add Tracking Number",
+      "label": "Tracking Number",
+      "addBtn": "Add"
+    },
+
+    "inTransit": {
+      "incoming": {
+        "titleOne": "All Orders- Intransit/Incoming",
+        "titleTwo": "All Orders- Intransit/Completed",
+        "tabOne": "Incoming",
+        "tabTwo": "Completed",
+        "transitReceivedBtn": "Transit Received",
+        "detailTitleOne": "Incoming Details",
+        "detailTitleTwo": "Incoming Completed Details"
+      },
+      "outgoing": {
+        "titleOne": "All Orders- Intransit/Outgoing",
+        "titleTwo": "All Orders- Intransit/Completed",
+        "tabOne": "Outgoing",
+        "tabTwo": "Completed",
+        "detailTitleOne": "Outgoing Details",
+        "detailTitleTwo": "Outgoing Completed Details"
+      }
+    },
+
+    "cancelled": {
+      "title": "All Orders-Cancelled",
+      "detailsTitle": "Cancelled Details"
+    },
+
+    "completed": {
+      "title": "All Orders-Completed",
+      "detailsTitle": "Completed Details"
+    },
+
+    "directDelivery": {
+      "title": "All Orders-Direct Delivery",
+      "detailsTitle": "Direct Delivery - Details"
+    },
+
+    "selfPickup": {
+      "title": "All Orders-Self Pickup",
+      "detailsTitle": "Self Pickup - Details",
+      "tabOne": "Waiting",
+      "tabTwo": "Picked By Customer",
+      "waitingDetTitle": "Waiting - Details",
+      "pickByCusDetTitle": "Picked By Customer - Details"
+    },
+
+    "tableData": {
+      "bookingId": "Booking Id",
+      "virtualBoxNum": "Virtual Box Number",
+      "receivingWarehouse": "Receiving Warehouse",
+      "deliveryWarehouse": "Delivery Warehouse",
+      "deliveryType": "Delivery Type",
+      "company": "Logistic Company",
+      "consolidation": "Consolidation",
+      "CreatedAt": "Created At",
+      "receivedPack": "Received Packages",
+      "date": "Date",
+      "action": "Action",
+      "address": "Drop Off Address",
+      "viewDet": "View Details",
+      "status": "Status",
+      "deliverBtn": "Deliver",
+      "handedOverBtn": "Handing over",
+      "transitId": "Transit Id",
+      "id": "Id",
+      "name": "Name",
+      "phone": "Phone No",
+      "approvalStatus": "Approval Status",
+      "pickupDBS": "Pickup DBS",
+      "dropOffDBS": "Drop Off DBS"
+    },
+
+    "details": {
+      "incomingTitle": "Incoming Details",
+      "labelTitle": "Received/Pending Measurements Details",
+      "awaitingConsolidationTitle": "Awaiting Consolidation Details",
+      "pendingPaymentTitle": "Pending Payment Details",
+      "backButton": "Back",
+      "trackingNum": "Tracking #",
+      "statusReceived": "Received",
+      "statusNeverReceived": "Never Received",
+      "statusPending": "Pending",
+      "companyName": "Company Name",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "weight": "Weight",
+      "size": "Size",
+      "eta": "ETA",
+      "category": "Category",
+      "confirmationTitle": "Confirmation of Package",
+      "confirmationParaOne": "Are you sure the package has arrived at the warehouse?",
+      "confirmationParaTwo": "Are you sure the package has not arrived at the warehouse?",
+      "sure": "Yes Sure",
+      "deliveryType": "Delivery Type",
+      "remeasureBtn": "Remeasure",
+      "alreadyMeasurebtn": "Already Remeasured"
+    },
+
+    "modal": {
+      "measurePack": "Measure Package",
+      "consMeasurments": "Remeasurements After Consolidation",
+      "remeasureTitle": "Consolidation measurments",
+      "packDet": "Package Details",
+      "trackingNum": "Tracking Number",
+      "company": "Company",
+      "dimensions": "Dimensions",
+      "captured": "Captured",
+      "measured": "Measured",
+      "length": "Length",
+      "width": "Width",
+      "height": "Height",
+      "weight": "Weight",
+      "category": "Category",
+      "submit": "Submit"
+    },
+
+    "orderDetails": {
+      "order": "Order",
+      "senderDetails": "Sender Details",
+      "senderEmail": "Email",
+      "senderPhone": "Phone no",
+      "senderVbn": "Virtual Box no",
+      "receiverDetails": "Sender Details",
+      "receiverEmail": "Email",
+      "receiverPhone": "Phone no",
+      "paymentDetails": "Payment Details",
+      "consolidation": "Consolidation",
+      "noOfPackages": "Total number of packages",
+      "billableWeight": "Billable weight",
+      "price": "Price"
+    },
+
+    "deliveryDetails": {
+      "title": "Delivery Details",
+      "pickup": "Origin (USA Warehouse)",
+      "dropOff": "Destination",
+      "instruction": "Order Instruction",
+      "receivingWarehouse": "Receiving Warehouse (Puerto Rico Warehouse)"
+    },
+
+    "shippingDetails": {
+      "title": "Shipping Company",
+      "trackingNum": "Tracking Number",
+      "driver": "Delivery Driver ( Drop off)",
+      "driverName": "Name",
+      "memberSince": "Member Since",
+      "order": "Order",
+      "driverEmail": "Email",
+      "driverPhone": "Phone"
+    },
+
+    "drivers": {
+      "title": "All Drivers",
+      "detailsTitle": "Driver-Details",
+      "createDriver": "Create Driver",
+      "updateDriver": "Update Driver",
+      "name": "Name",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone No",
+      "memberSince": "Member Since",
+      "vehicle": "Vehicle",
+      "password": "Create Password",
+      "image": "Profile Image",
+      "createBtn": "Create",
+      "entries": "Your Entries",
+      "regYear": "Registration Year",
+      "vehicleMake": "Vehicle Make",
+      "vehicleModel": "Vehicle Model",
+      "vehicleColor": "Vehicle Color",
+      "vehicleYear": "Vehicle Year",
+      "vehicleImages": "Vehicle Images",
+      "vehicleType": "Vehicle Type",
+      "licIssueDate": "License Issue Date",
+      "licExpiryDate": "License Expiry Date",
+      "frontImage": "Front Image",
+      "backImage": "Back Image",
+      "personalInfo": "Personal Info",
+      "vehicleInfo": "Vehicle Info",
+      "licenseInfo": "License Info",
+      "select": "Select from following which info you want to edit",
+      "newImage": "Do you want to upload new Image?",
+      "profileImg": "Profile Image",
+      "updateBtn": "Update",
+      "placeholderOne": "Enter Driver's First Name",
+      "placeholderTwo": "Enter Driver's Last Name",
+      "placeholderThree": "Enter Driver's Email",
+      "placeholderFour": "Enter Driver's Phone Number",
+      "placeholderFive": "Create Driver's Password",
+      "placeholderSix": "Enter Driver's Name",
+      "placeholderSeven": "Enter Vehicle Make",
+      "placeholderEight": "Enter Vehicle Model",
+      "placeholderNine": "Enter Vehicle Color",
+      "placeholderTen": "Enter Vehicle's Registration Year",
+      "placeholderEle": "Enter License's Issue Date",
+      "placeholderTwe": "Enter License's Expiry Date"
+    }
+  }
+}

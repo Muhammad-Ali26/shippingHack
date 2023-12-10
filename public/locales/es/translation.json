@@ -1,0 +1,293 @@
+{
+  "leftbar": {
+    "title": {
+      "dashboard": "Tablero",
+      "orderTracking": "Seguimiento de Pedidos",
+      "virtualBoxNumber": "Número de Caja Virtual",
+      "orderManagement": "Gestión de Pedidos (USA)",
+      "incoming": "Entrante",
+      "pendingMeasurements": "Mediciones Pendientes",
+      "awaitingConsolidation": "Esperando Consolidación",
+      "pendingPayment": "Pagos Pendientes",
+      "readyToShip": "Listo Para Envío",
+      "directDelivery": "Entrega Directa",
+      "byWarehouse": "Entrega Por Almacén",
+      "inTransit": "En Tránsito",
+      "outgoing": "Saliente",
+      "orderManagementRico": "Gestión de Pedidos (Puerto Rico) Paquete Saliente",
+      "received": "Recibido",
+      "assignDriver": "Asignar Conductor (Esperando ser Recogido por el Conductor)",
+      "onTheWay": "En Camino (Saliente)",
+      "directDeliveryOrders": "Entrega Directa",
+      "selfPickup": "Recogida Personal",
+      "completedOrders": "Completados",
+      "cancelledOrders": "Cancelados",
+      "driver": "Conductores"
+    }
+  },
+  "pages": {
+    "home": {
+      "dasboard": "Mi Tablero",
+      "allOrder": "Todos los Pedidos",
+      "incoming": "Entrante",
+      "received": "Recibido en el almacén",
+      "waitingConsolidation": "Esperando Consolidación",
+      "readyToShip": "Listo Para Envío",
+      "inTransitIncoming": "En tránsito (Entrante)",
+      "inTransitOutgoing": "En tránsito (Saliente)",
+      "deliverd": "Entregado en el almacén",
+      "deliverdToUser": "Entregado al Usuario",
+      "completed": "Completado",
+      "cancelled": "Cancelado",
+      "selfPickup": "Recogida Personal",
+      "pendingPayment": "Pagos Pendientes"
+    },
+
+    "orderTracking": {
+      "title": "Seguir Pedido",
+      "inputPlaceholder": "Ingrese el ID de Pedido a Seguir",
+      "button": "Seguir",
+      "trackOrderDetTitle": "Detalles de Seguimiento del Pedido",
+      "status": "Estado",
+      "statusPh": "Cambiar Estado"
+    },
+
+    "trackVbn": {
+      "title": "Seguir Número de Caja Virtual",
+      "inputPlaceholder": "Ingrese el Número de Caja Virtual",
+      "button": "Nombre",
+      "allBookings": "Todas las Reservas",
+      "orderDetails": "Detalles del Pedido"
+    },
+
+    "orderManagement": {
+      "titleOne": "Todas las Órdenes - Entrantes",
+      "titleTwo": "Todas las Órdenes - Recibidas/pendientes de etiqueta",
+      "titleThree": "Todas las Órdenes - Esperando Consolidación",
+      "titleFour": "Todas las Órdenes - Pendientes de Pago",
+      "tabOne": "Entrantes",
+      "tabTwo": "Recibidas/pendientes de etiqueta",
+      "tabThree": "Esperando Consolidación",
+      "tabFour": "Pendientes de Pago"
+    },
+
+    "orderManagementRico": {
+      "titleOne": "Todas las Órdenes-Recibidas",
+      "titleTwo": "Todas las Órdenes-Esperando Ser Recogidas",
+      "titleThree": "Todas las Órdenes-En Camino",
+      "assignBtn": "Asignar",
+      "assignDriBtn": "Asignar Conductor",
+      "allDrivers": "Todos los Conductores Activos",
+      "handedOverBtn": "Entregado",
+      "detailTitleOne": "Recibido - Detalles",
+      "detailTitleTwo": "En Espera de Recogida - Detalles",
+      "detailTitleThree": "En Camino - Detalles"
+    },
+
+    "readyToShip": {
+      "titleOne": "Todas las Órdenes - Entrega Directa",
+      "titleTwo": "Todas las Órdenes - Entrega por Almacén",
+      "tabOne": "Órdenes de Entrega Directa",
+      "tabTwo": "Órdenes de Entrega por Almacén",
+      "directDelBtn": "Entrega Directa",
+      "byWarehouseBtn": "Entrega por Almacén",
+      "detailsTitle": "Detalles Listos para Enviar",
+      "addTrackNo": "Agregar Número de Seguimiento",
+      "label": "Número de Seguimiento",
+      "addBtn": "Agregar"
+    },
+
+    "inTransit": {
+      "incoming": {
+        "titleOne": "Todas las Órdenes - En Tránsito/Entrantes",
+        "titleTwo": "Todas las Órdenes - En Tránsito/Completadas",
+        "tabOne": "Entrantes",
+        "tabTwo": "Completadas",
+        "transitReceivedBtn": "Recibido en Tránsito"
+      },
+      "outgoing": {
+        "titleOne": "Todas las Órdenes - En Tránsito/Saliendo",
+        "titleTwo": "Todas las Órdenes - En Tránsito/Completadas",
+        "tabOne": "Saliendo",
+        "tabTwo": "Completadas"
+      }
+    },
+
+    "cancelled": {
+      "title": "Todas las Órdenes Canceladas",
+      "detailsTitle": "Detalles de Cancelación"
+    },
+
+    "completed": {
+      "title": "Todas las Órdenes Completadas",
+      "detailsTitle": "Detalles de Completado"
+    },
+
+    "directDelivery": {
+      "title": "Todas las Órdenes - Entrega Directa",
+      "detailsTitle": "Entrega Directa - Detalles"
+    },
+
+    "selfPickup": {
+      "title": "Todas las Órdenes - Recogida Personal",
+      "detailsTitle": "Recogida Personal - Detalles",
+      "tabOne": "Esperando",
+      "tabTwo": "Recogido por el Cliente",
+      "waitingDetTitle": "Esperando - Detalles",
+      "pickByCusDetTitle": "Recogido por el Cliente - Detalles"
+    },
+
+    "tableData": {
+      "bookingId": "ID de Reserva",
+      "virtualBoxNum": "Número de Caja Virtual",
+      "receivingWarehouse": "Almacén Receptor",
+      "deliveryWarehouse": "Almacén de Entrega",
+      "deliveryType": "Tipo de Entrega",
+      "company": "Compañía Logística",
+      "consolidation": "Consolidación",
+      "CreatedAt": "Creado En",
+      "receivedPack": "Paquetes Recibidos",
+      "date": "Fecha",
+      "action": "Acción",
+      "address": "Dirección de Entrega",
+      "viewDet": "Ver Detalles",
+      "status": "Estado",
+      "deliverBtn": "Entregar",
+      "handedOverBtn": "Entregando",
+      "transitId": "ID de Tránsito",
+      "id": "ID",
+      "name": "Nombre",
+      "phone": "Número de Teléfono",
+      "approvalStatus": "Estado de Aprobación",
+      "pickupDBS": "Recogida DBS",
+      "dropOffDBS": "Entrega DBS"
+    },
+
+    "details": {
+      "incomingTitle": "Detalles de Entrada",
+      "labelTitle": "Detalles de Medidas Recibidas/Pendientes.",
+      "awaitingConsolidationTitle": "Detalles de Espera de Consolidación",
+      "pendingPaymentTitle": "Detalles de Pago Pendiente",
+      "backButton": "Atrás",
+      "trackingNum": "Número de Seguimiento #",
+      "statusReceived": "Recibido",
+      "statusNeverReceived": "Nunca Recibido",
+      "statusPending": "Pendiente",
+      "companyName": "Nombre de la Empresa",
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono",
+      "weight": "Peso",
+      "size": "Tamaño",
+      "eta": "ETA",
+      "category": "Categoría",
+      "confirmationTitle": "Confirmación del Paquete",
+      "confirmationParaOne": "¿Estás seguro de que el paquete ha llegado al almacén?",
+      "confirmationParaTwo": "¿Estás seguro de que el paquete no ha llegado al almacén?",
+      "sure": "Sí, Seguro",
+      "deliveryType": "Tipo de entrega",
+      "remeasureBtn": "Volver a Medir",
+      "alreadyMeasurebtn": "Ya Medido"
+    },
+
+    "modal": {
+      "measurePack": "Medir Paquete",
+      "consMeasurments": "Nuevas Mediciones Después de Consolidación",
+      "remeasureTitle": "Mediciones de Consolidación",
+      "packDet": "Detalles del Paquete",
+      "trackingNum": "Número de Seguimiento",
+      "company": "Compañía",
+      "dimensions": "Dimensiones",
+      "captured": "Capturado",
+      "measured": "Medido",
+      "length": "Longitud",
+      "width": "Ancho",
+      "height": "Altura",
+      "weight": "Peso",
+      "category": "Categoría",
+      "submit": "Enviar"
+    },
+
+    "orderDetails": {
+      "order": "Pedido",
+      "senderDetails": "Detalles del Remitente",
+      "senderEmail": "Correo Electrónico del Remitente",
+      "senderPhone": "Teléfono del Remitente",
+      "senderVbn": "Número de Caja Virtual del Remitente",
+      "receiverDetails": "Detalles del Destinatario",
+      "receiverEmail": "Correo Electrónico del Destinatario",
+      "receiverPhone": "Teléfono del Destinatario",
+      "paymentDetails": "Detalles del Pago",
+      "consolidation": "Consolidación",
+      "noOfPackages": "Número total de paquetes",
+      "billableWeight": "Peso Facturable",
+      "price": "Precio"
+    },
+
+    "deliveryDetails": {
+      "title": "Detalles de Entrega",
+      "pickup": "Recogida (Almacén en USA)",
+      "dropOff": "Dejar",
+      "instruction": "Instrucciones del Pedido"
+    },
+
+    "shippingDetails": {
+      "title": "Compañía de Envíos",
+      "trackingNum": "Número de Seguimiento",
+      "driver": "Conductor de Entrega (Dejar)",
+      "driverName": "Nombre",
+      "memberSince": "Miembro Desde",
+      "order": "Pedido",
+      "driverEmail": "Correo Electrónico del Conductor",
+      "driverPhone": "Teléfono del Conductor"
+    },
+
+    "drivers": {
+      "title": "Todos los Conductores",
+      "detailsTitle": "Detalles del Conductor",
+      "createDriver": "Crear Conductor",
+      "updateDriver": "Actualizar Conductor",
+      "name": "Nombre",
+      "firstName": "Primer Nombre",
+      "lastName": "Apellido",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "memberSince": "Miembro Desde",
+      "vehicle": "Vehículo",
+      "password": "Crear Contraseña",
+      "image": "Imagen de Perfil",
+      "createBtn": "Crear",
+      "entries": "Tus Entradas",
+      "regYear": "Año de Registro",
+      "personalInfo": "Información Personal",
+      "vehicleInfo": "Información del Vehículo",
+      "licenseInfo": "Información de la Licencia",
+      "select": "Selecciona de la siguiente lista qué información deseas editar",
+      "vehicleMake": "Marca del Vehículo",
+      "vehicleModel": "Modelo del Vehículo",
+      "vehicleColor": "Color del Vehículo",
+      "vehicleYear": "Año del Vehículo",
+      "vehicleImages": "Imágenes del Vehículo",
+      "vehicleType": "Tipo de Vehículo",
+      "licIssueDate": "Fecha de Emisión de la Licencia",
+      "licExpiryDate": "Fecha de Vencimiento de la Licencia",
+      "frontImage": "Imagen Frontal",
+      "backImage": "Imagen Trasera",
+      "newImage": "¿Quieres subir una nueva imagen?",
+      "profileImg": "Imagen de Perfil",
+      "updateBtn": "Actualizar",
+      "placeholderOne": "Ingrese el Primer Nombre del Conductor",
+      "placeholderTwo": "Ingrese el Apellido del Conductor",
+      "placeholderThree": "Ingrese el Correo Electrónico del Conductor",
+      "placeholderFour": "Ingrese el Número de Teléfono del Conductor",
+      "placeholderFive": "Crear Contraseña del Conductor",
+      "placeholderSix": "Ingrese el Nombre del Conductor",
+      "placeholderSeven": "Ingrese la Marca del Vehículo",
+      "placeholderEight": "Ingrese el Modelo del Vehículo",
+      "placeholderNine": "Ingrese el Color del Vehículo",
+      "placeholderTen": "Ingrese el Año de Registro del Vehículo",
+      "placeholderEle": "Ingrese la Fecha de Emisión de la Licencia",
+      "placeholderTwe": "Ingrese la Fecha de Vencimiento de la Licencia"
+    }
+  }
+}
